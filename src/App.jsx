@@ -43,7 +43,7 @@ function App() {
   return (
     <ValorHoraProvider>
       <AuthProvider>
-        <Router>
+        <Router basename="/muestralanding">
           <Routes>
             {/* Rutas públicas */}
             <Route path="/" element={<Landing />} />
